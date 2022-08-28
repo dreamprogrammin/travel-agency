@@ -4,8 +4,10 @@ a {
 
 body {
     font-family: 'poppins';
-    font-weight: 500;
     color: black;
+
+    font-size: 24px;
+    background-color: #E5E5E5;
 }
 
 .container {
@@ -14,4 +16,8 @@ body {
 
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.basic__title {
+    @extend %intro-title;
 }
