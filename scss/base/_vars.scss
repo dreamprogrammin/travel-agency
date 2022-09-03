@@ -1,0 +1,24 @@
+$color-primary1 : #fff;
+$color-primary2 : #3E86F5;
+$color-body : #E5E5E5;
+
+%intro-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    text-align: center;
+
+    color: $color-primary1;
+}
+
+%button-style-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: $color-primary2;
+}

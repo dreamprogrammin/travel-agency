@@ -1,0 +1,40 @@
+.header {
+    position: fixed;
+    width: 100%;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+.logo__item {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    color: $color-primary1;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+}
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    .header__link {
+        color: $color-primary1;
+    }
+}
+
+.header__button {
+    padding: 14px 44px;
+    margin-left: 50px;
+    border-radius: 10px;
+
+    @extend %button-style-text;
+}

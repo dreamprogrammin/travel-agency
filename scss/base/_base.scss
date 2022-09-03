@@ -1,0 +1,23 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'poppins';
+    color: black;
+
+    font-size: 24px;
+    background-color: #E5E5E5;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.basic__title {
+    @extend %intro-title;
+}
